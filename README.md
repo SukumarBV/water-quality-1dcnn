@@ -1,4 +1,4 @@
-# 💧 Water Quality CNN – Risk Scoring Model
+#  Water Quality CNN – Risk Scoring Model
 
 A lightweight **1D Convolutional Neural Network** that predicts a continuous **contamination risk score** `[0.0 → 1.0]` from four water quality sensor readings. Designed to run on embedded hardware via **TensorFlow Lite Micro on ESP32-S3**.
 
@@ -49,7 +49,7 @@ water_quality_cnn/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install dependencies
 
@@ -94,7 +94,7 @@ python scripts/infer.py --demo
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 Input (4 features, 1 channel)
@@ -129,7 +129,7 @@ Replaces `Flatten` → dramatically fewer parameters → smaller model → bette
 
 ---
 
-## 📊 Expected Performance
+##  Expected Performance
 
 On the synthetic dataset (2,000 samples):
 
